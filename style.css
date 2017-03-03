@@ -15,13 +15,19 @@ header {
 
 .main-nav {
 	position: absolute;
+	display: inline-block;
 	right: 10px;
-	top: 10px;
+	top: 0px;
+	bottom: 2px;
 }
 
 .nav-link {
 	font-size: 18px;
 	padding: 0 6px;
+}
+
+nav li {
+	display: inline-block;
 }
 
 a {
