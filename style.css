@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 10px;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD
+}
+
+.main-nav {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.nav-link {
+	font-size: 18px;
+	padding: 0 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline; 
+}
+
+.logo {
+	display: inline-block;
+	border-radius: 100%;
+	font-weight: 800;
+}
+
+.logo h1 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+main {
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 500px;
+}
+
+.input-field, .mg {
+	margin-top: 15px;
+	vertical-align: middle;
+}
+
+.input-field {
+	font-size: 18px;
+	border-radius: 5px;
+	border: 1px solid #D0D5D6;
+	height: 28px;
+}
+
+.mg {
+	height: 27px;
+	border: 1px #D0D5D6 solid;
+	border-radius: 5px;
+}
+
+.inner {
+	margin-top: 25px;
+	display: inline-block;
+	font-size: 0px;
+	width: 30%;
+	padding: 0px 0px 0px 0px;
+}
+
+.index p {
+	font-size: 18px;
+	text-align: center;
+}
+
+.inner-one {
+	border: 1px #D0D5D6 solid;
+	border-radius: 5px 0px 0px 5px;
+}
+
+.inner-two {
+	border: 1px #D0D5D6 solid;
+}
+
+.inner-three {
+	border: 1px #D0D5D6 solid;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.listings {
+	margin-top: 32px;
+	font-size: 18px;
+	color: grey;
+}
+
+.listings-link {
+	font-weight: 900;
+	padding-left: 10px;
+	padding-right: 10px;
+}
